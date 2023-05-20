@@ -1,4 +1,4 @@
-import src.main.java.Counter;
+
 
 public class Driver {
 
@@ -6,15 +6,15 @@ public class Driver {
 		
 		Counter counter = new Counter();
 		
-		System.out.println("Current count:" + counter.getCount());
+		System.out.println("Current:" + counter.getCount());
 		
 		counter.increment();
 		
-		System.out.println("Current count:" + counter.getCount());
+		System.out.println("Current:" + counter.getCount());
 		
 		counter.decrement();
 		
-		System.out.println("Current count:" + counter.getCount());
+		System.out.println("Current:" + counter.getCount());
 		
 	}
 
